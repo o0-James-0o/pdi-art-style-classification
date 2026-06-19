@@ -58,8 +58,8 @@ Desenvolver e avaliar um sistema capaz de **extrair características visuais cl�
 
 <table width="100%">
   <tr>
-    <th width="32%" align="center">Requisito solicitado</th>
-    <th width="68%" align="center">Como foi atendido</th>
+    <th width="25%" align="center">Requisito solicitado</th>
+    <th width="75%" align="center">Como foi atendido</th>
   </tr>
   <tr>
     <td><strong>Dataset relacionado ao tema</strong></td>
@@ -365,8 +365,8 @@ Cada imagem foi representada por um vetor de **97 características numéricas**.
 
 <table width="100%">
   <tr>
-    <th width="20%" align="center">Grupo</th>
-    <th width="80%" align="center">Exemplos de características</th>
+    <th width="17%" align="center">Grupo</th>
+    <th width="83%" align="center">Exemplos de características</th>
   </tr>
   <tr>
     <td><strong>Cor</strong></td>
@@ -406,8 +406,8 @@ Foram avaliados modelos simples e interpretáveis, mantendo o foco principal no 
 
 <table width="100%">
   <tr>
-    <th width="18%" align="center">Modelo</th>
-    <th width="82%" align="center">Justificativa</th>
+    <th width="17%" align="center">Modelo</th>
+    <th width="83%" align="center">Justificativa</th>
   </tr>
   <tr>
     <td><strong>KNN</strong></td>
