@@ -98,9 +98,9 @@ A tabela abaixo resume os principais recursos técnicos do projeto. As bibliotec
 <table width="100%">
   <tr>
     <th width="8%" align="center">Ícone</th>
-    <th width="18%" align="center">Recurso</th>
-    <th width="32%" align="center">Uso no projeto</th>
-    <th width="42%" align="center">Observação técnica</th>
+    <th width="12%" align="center">Recurso</th>
+    <th width="27%" align="center">Uso no projeto</th>
+    <th width="53%" align="center">Observação técnica</th>
   </tr>
   <tr>
     <td align="center"><img src="https://api.iconify.design/simple-icons:python.svg?color=%233776AB" width="32" height="32"></td>
