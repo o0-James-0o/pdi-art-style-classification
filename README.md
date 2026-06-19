@@ -29,22 +29,20 @@ O classificador recebe um vetor com **97 descritores numéricos** extraídos de 
 
 O projeto utiliza um recorte do **WikiArt**, disponibilizado no Hugging Face pelo dataset **HugGAN / WikiArt**.
 
-<div align="center">
-  <table width="100%">
-    <tr>
-      <th width="8%" align="center">Ícone</th>
-      <th width="30%" align="center">Fonte</th>
-      <th width="62%" align="center">Link do dataset</th>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://api.iconify.design/simple-icons:huggingface.svg?color=%23FFD21E" width="32" height="32" alt="Hugging Face">
-      </td>
-      <td align="center"><strong>HugGAN / WikiArt</strong></td>
-      <td align="center"><a href="https://huggingface.co/datasets/huggan/wikiart">https://huggingface.co/datasets/huggan/wikiart</a></td>
-    </tr>
-  </table>
-</div>
+<table width="100%">
+  <tr>
+    <th width="8%" align="center">Ícone</th>
+    <th width="40%" align="center">Fonte</th>
+    <th width="52%" align="center">Link do dataset</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://api.iconify.design/simple-icons:huggingface.svg?color=%23FFD21E" width="32" height="32" alt="Hugging Face">
+    </td>
+    <td align="center"><strong>HugGAN / WikiArt</strong></td>
+    <td><a href="https://huggingface.co/datasets/huggan/wikiart">https://huggingface.co/datasets/huggan/wikiart</a></td>
+  </tr>
+</table>
 
 ---
 
