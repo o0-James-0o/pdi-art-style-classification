@@ -8,6 +8,7 @@
   <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-0B1F5B?style=for-the-badge&logo=python&logoColor=white">
   <img alt="PDI" src="https://img.shields.io/badge/PDI-Pipeline%20Cl%C3%A1ssico-0B1F5B?style=for-the-badge">
   <img alt="Dataset" src="https://img.shields.io/badge/Dataset-WikiArt-0B1F5B?style=for-the-badge">
+  <img alt="Implementação" src="https://img.shields.io/badge/Implementa%C3%A7%C3%A3o-Manual-0B1F5B?style=for-the-badge">
   <img alt="Modelo" src="https://img.shields.io/badge/Modelo-KNN%20%2B%20Regress%C3%A3o%20Log%C3%ADstica-0B1F5B?style=for-the-badge">
 </p>
 
@@ -103,37 +104,37 @@ A tabela abaixo resume os principais recursos técnicos do projeto. As bibliotec
     <th width="42%" align="center">Observação técnica</th>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/simple-icons:python.svg?color=%230B1F5B" width="32" height="32"></td>
+    <td align="center"><img src="https://api.iconify.design/simple-icons:python.svg?color=%233776AB" width="32" height="32"></td>
     <td><strong>Python</strong></td>
     <td>Linguagem principal do projeto.</td>
     <td>Usada para implementar o pipeline, extrair características e treinar modelos.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/simple-icons:opencv.svg?color=%230B1F5B" width="32" height="32"></td>
+    <td align="center"><img src="https://api.iconify.design/simple-icons:opencv.svg?color=%235C3EE8" width="32" height="32"></td>
     <td><strong>OpenCV</strong></td>
     <td>Leitura e escrita de imagens.</td>
     <td>Não foi usado para resolver as etapas principais, como Sobel, Otsu, morfologia ou DCT.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/simple-icons:numpy.svg?color=%230B1F5B" width="32" height="32"></td>
+    <td align="center"><img src="https://api.iconify.design/simple-icons:numpy.svg?color=%23013243" width="32" height="32"></td>
     <td><strong>NumPy</strong></td>
     <td>Manipulação matricial.</td>
     <td>Base para cálculos numéricos, percursos em matriz e vetores de características.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/simple-icons:pandas.svg?color=%230B1F5B" width="32" height="32"></td>
+    <td align="center"><img src="https://api.iconify.design/simple-icons:pandas.svg?color=%23150458" width="32" height="32"></td>
     <td><strong>Pandas</strong></td>
     <td>Organização de resultados.</td>
     <td>Usado para salvar e ler tabelas de características, métricas e comparação de modelos.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/simple-icons:scikitlearn.svg?color=%230B1F5B" width="32" height="32"></td>
+    <td align="center"><img src="https://api.iconify.design/simple-icons:scikitlearn.svg?color=%23F7931E" width="32" height="32"></td>
     <td><strong>scikit-learn</strong></td>
     <td>Aprendizado de máquina.</td>
     <td>Usado apenas na etapa permitida de treino e avaliação dos modelos.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/simple-icons:plotly.svg?color=%230B1F5B" width="32" height="32"></td>
+    <td align="center"><img src="https://api.iconify.design/simple-icons:matplotlib.svg?color=%2311557C" width="32" height="32"></td>
     <td><strong>Matplotlib</strong></td>
     <td>Visualização de resultados.</td>
     <td>Gera gráficos, matriz de confusão e imagens de apoio para análise.</td>
@@ -252,6 +253,8 @@ Todas as imagens seguem a mesma sequência de processamento. O modelo não receb
   <img src="assets/pipeline_classico_readme.png" alt="Pipeline clássico de PDI" width="100%">
 </p>
 
+---
+
 <table width="100%">
   <tr>
     <th width="10%" align="center">Visual</th>
@@ -259,47 +262,47 @@ Todas as imagens seguem a mesma sequência de processamento. O modelo não receb
     <th width="68%" align="center">Função no pipeline</th>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:image.svg?color=%230B1F5B" width="32" height="32"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:image.svg?color=%232F80ED" width="32" height="32"></td>
     <td><strong>Imagem original</strong></td>
     <td>Entrada colorida do dataset WikiArt, preservando a informação visual inicial da pintura.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:circle-opacity.svg?color=%230B1F5B" width="32" height="32"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:circle-opacity.svg?color=%236B7280" width="32" height="32"></td>
     <td><strong>Escala de cinza</strong></td>
     <td>Simplifica a análise estrutural e tonal, reduzindo a imagem para uma representação de intensidade.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:blur.svg?color=%230B1F5B" width="32" height="32"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:blur.svg?color=%238E44AD" width="32" height="32"></td>
     <td><strong>Filtro espacial</strong></td>
     <td>Suaviza pequenas variações locais antes da extração de bordas, reduzindo ruídos e transições muito abruptas.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:vector-polyline.svg?color=%230B1F5B" width="32" height="32"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:vector-polyline.svg?color=%23E67E22" width="32" height="32"></td>
     <td><strong>Sobel</strong></td>
     <td>Detecta bordas por gradientes horizontal e vertical, destacando contornos e estruturas da composição.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:tune-vertical.svg?color=%230B1F5B" width="32" height="32"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:tune-vertical.svg?color=%23D6336C" width="32" height="32"></td>
     <td><strong>Otsu</strong></td>
     <td>Segmenta automaticamente regiões claras e escuras por meio de um limiar calculado a partir do histograma.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:shape-outline.svg?color=%230B1F5B" width="32" height="32"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:shape-outline.svg?color=%232E7D32" width="32" height="32"></td>
     <td><strong>Morfologia</strong></td>
     <td>Refina a máscara binária por dilatação, erosão, abertura e fechamento, melhorando a continuidade das regiões.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:grid.svg?color=%230B1F5B" width="32" height="32"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:grid.svg?color=%23009688" width="32" height="32"></td>
     <td><strong>DCT / Quantização</strong></td>
     <td>Analisa frequência, compressibilidade e perda de informação a partir de blocos 8x8.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:chart-bar.svg?color=%230B1F5B" width="32" height="32"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:chart-bar.svg?color=%23FBC02D" width="32" height="32"></td>
     <td><strong>Features</strong></td>
     <td>Concatena estatísticas, histogramas, bordas, segmentação, morfologia e frequência em um vetor numérico.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:graph-outline.svg?color=%230B1F5B" width="32" height="32"></td>
+    <td align="center"><img src="https://api.iconify.design/mdi:graph-outline.svg?color=%237B1FA2" width="32" height="32"></td>
     <td><strong>KNN</strong></td>
     <td>Classifica a pintura de acordo com a proximidade entre vetores de características no espaço de atributos.</td>
   </tr>
@@ -584,6 +587,8 @@ O melhor desempenho foi obtido com o modelo **KNN_k=9**.
   <img src="assets/confusion_matrix_best.png" alt="Matriz de confusão" width="75%">
 </p>
 
+---
+
 <table width="100%">
   <tr>
     <th width="18%" align="center">Observação</th>
@@ -763,24 +768,24 @@ O projeto demonstrou que técnicas clássicas de Processamento Digital de Imagen
 
 <table width="100%">
   <tr>
-    <th width="28%" align="center">Resultado</th>
-    <th width="72%" align="center">Interpretação</th>
+    <th width="18%" align="center">Resultado</th>
+    <th width="82%" align="center">Interpretação</th>
   </tr>
   <tr>
     <td><strong>Melhor modelo</strong></td>
-    <td>KNN_k=9 obteve o melhor desempenho geral entre as configurações avaliadas.</td>
+    <td>KNN_k=9 obteve o melhor desempenho geral entre as configurações avaliadas, indicando que uma vizinhança maior reduziu oscilações e aproveitou melhor os descritores extraídos.</td>
   </tr>
   <tr>
     <td><strong>Acurácia</strong></td>
-    <td>58.33%, acima do acaso esperado de 25% para quatro classes balanceadas.</td>
+    <td>58.33%, acima do acaso esperado de 25% para quatro classes balanceadas, demonstrando que os descritores manuais carregam informação discriminativa sobre os estilos.</td>
   </tr>
   <tr>
     <td><strong>Interpretação</strong></td>
-    <td>Características de borda, textura, segmentação e frequência contribuíram para separar estilos artísticos.</td>
+    <td>Características de borda, textura, segmentação e frequência contribuíram para separar estilos artísticos, mesmo sem utilizar a imagem bruta diretamente no modelo.</td>
   </tr>
   <tr>
     <td><strong>Classes</strong></td>
-    <td>Impressionism e Baroque foram mais reconhecidas; Realism apresentou maior confusão.</td>
+    <td>Impressionism e Baroque foram mais reconhecidas, enquanto Realism apresentou maior confusão por compartilhar padrões tonais, cromáticos e estruturais com outras classes.</td>
   </tr>
 </table>
 
