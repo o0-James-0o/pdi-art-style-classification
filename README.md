@@ -8,7 +8,6 @@
   <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-0B1F5B?style=for-the-badge&logo=python&logoColor=white">
   <img alt="PDI" src="https://img.shields.io/badge/PDI-Pipeline%20Cl%C3%A1ssico-0B1F5B?style=for-the-badge">
   <img alt="Dataset" src="https://img.shields.io/badge/Dataset-WikiArt-0B1F5B?style=for-the-badge">
-  <img alt="Implementação" src="https://img.shields.io/badge/Implementa%C3%A7%C3%A3o-Manual-0B1F5B?style=for-the-badge">
   <img alt="Modelo" src="https://img.shields.io/badge/Modelo-KNN%20%2B%20Regress%C3%A3o%20Log%C3%ADstica-0B1F5B?style=for-the-badge">
 </p>
 
