@@ -803,7 +803,7 @@ O projeto demonstrou que técnicas clássicas de Processamento Digital de Imagen
 <div align="left">
   <img src="assets/Vini.png" alt="Avatar Vinicius Viera" width="72" height="72" align="middle">
   &nbsp;&nbsp;
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=620&height=72&lines=Vinicius+Vieira+%7C+%F0%9F%8E%A8+T%C3%A9cnicas+de+PDI%2C+pr%C3%A9-processamento+e+an%C3%A1lise+visual." alt="Lucas Almeida | Algoritmos gráficos" align="middle">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=620&height=72&lines=Vinicius+Vieira+%7C+%F0%9F%8E%A8+T%C3%A9cnicas+de+PDI+e+pr%C3%A9-processamento." alt="Lucas Almeida | Algoritmos gráficos" align="middle">
 </div>
 
 <hr>
@@ -811,7 +811,7 @@ O projeto demonstrou que técnicas clássicas de Processamento Digital de Imagen
 <div align="left">
   <img src="assets/Victor.png" alt="Avatar Victor Reinaldo" width="72" height="72" align="middle">
   &nbsp;&nbsp;
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=620&height=72&lines=Victor+Reinaldo+%7C+%F0%9F%A4%96+KNN%2C+regress%C3%A3o+log%C3%ADstica+e+resultados." alt="Victor Reinaldo | Lógica e mecânicas principais" align="middle">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=620&height=72&lines=Victor+Reinaldo+%7C+%F0%9F%A4%96+KNN+e+regress%C3%A3o+log%C3%ADstica." alt="Victor Reinaldo | Lógica e mecânicas principais" align="middle">
 </div>
 
 ---
