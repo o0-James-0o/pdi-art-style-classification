@@ -261,47 +261,47 @@ Todas as imagens seguem a mesma sequência de processamento. O modelo não receb
     <th width="68%" align="center">Função no pipeline</th>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:image.svg?color=%232F80ED" width="32" height="32"></td>
+    <td align="center"><img src="assets/pipeline_stage_original.png" width="32" height="32" alt="Imagem original 32x32"></td>
     <td><strong>Imagem original</strong></td>
     <td>Entrada colorida do dataset WikiArt, preservando a informação visual inicial da pintura.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:circle-opacity.svg?color=%236B7280" width="32" height="32"></td>
+    <td align="center"><img src="assets/pipeline_stage_gray.png" width="32" height="32" alt="Imagem em escala de cinza 32x32"></td>
     <td><strong>Escala de cinza</strong></td>
     <td>Simplifica a análise estrutural e tonal, reduzindo a imagem para uma representação de intensidade.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:blur.svg?color=%238E44AD" width="32" height="32"></td>
+    <td align="center"><img src="assets/pipeline_stage_filter.png" width="32" height="32" alt="Imagem filtrada 32x32"></td>
     <td><strong>Filtro espacial</strong></td>
     <td>Suaviza pequenas variações locais antes da extração de bordas, reduzindo ruídos e transições muito abruptas.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:vector-polyline.svg?color=%23E67E22" width="32" height="32"></td>
+    <td align="center"><img src="assets/pipeline_stage_sobel.png" width="32" height="32" alt="Bordas por Sobel 32x32"></td>
     <td><strong>Sobel</strong></td>
     <td>Detecta bordas por gradientes horizontal e vertical, destacando contornos e estruturas da composição.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:tune-vertical.svg?color=%23D6336C" width="32" height="32"></td>
+    <td align="center"><img src="assets/pipeline_stage_otsu.png" width="32" height="32" alt="Segmentação por Otsu 32x32"></td>
     <td><strong>Otsu</strong></td>
     <td>Segmenta automaticamente regiões claras e escuras por meio de um limiar calculado a partir do histograma.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:shape-outline.svg?color=%232E7D32" width="32" height="32"></td>
+    <td align="center"><img src="assets/pipeline_stage_morphology.png" width="32" height="32" alt="Morfologia 32x32"></td>
     <td><strong>Morfologia</strong></td>
     <td>Refina a máscara binária por dilatação, erosão, abertura e fechamento, melhorando a continuidade das regiões.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:grid.svg?color=%23009688" width="32" height="32"></td>
+    <td align="center"><img src="assets/pipeline_stage_dct.png" width="32" height="32" alt="DCT e quantização 32x32"></td>
     <td><strong>DCT / Quantização</strong></td>
     <td>Analisa frequência, compressibilidade e perda de informação a partir de blocos 8x8.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:chart-bar.svg?color=%23FBC02D" width="32" height="32"></td>
+    <td align="center"><img src="assets/pipeline_stage_features.png" width="32" height="32" alt="Features extraídas 32x32"></td>
     <td><strong>Features</strong></td>
     <td>Concatena estatísticas, histogramas, bordas, segmentação, morfologia e frequência em um vetor numérico.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/mdi:graph-outline.svg?color=%237B1FA2" width="32" height="32"></td>
+    <td align="center"><img src="assets/pipeline_stage_knn.png" width="32" height="32" alt="Classificação por KNN 32x32"></td>
     <td><strong>KNN</strong></td>
     <td>Classifica a pintura de acordo com a proximidade entre vetores de características no espaço de atributos.</td>
   </tr>
