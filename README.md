@@ -793,9 +793,25 @@ O projeto demonstrou que técnicas clássicas de Processamento Digital de Imagen
 ## 👨‍💻 Autoria
 
 <div align="left">
-  <img src="https://github.com/o0-James-0o.png" alt="Avatar James Taylor" width="72" height="72" align="middle">
+  <img src="assets/James.png" alt="Avatar James Taylor" width="72" height="72" align="middle">
   &nbsp;&nbsp;
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=760&height=72&lines=James+Taylor+%7C+Estudante+de+Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+%7C+PDI+e+Ciberseguran%C3%A7a." alt="James Taylor | Estudante de Ciência da Computação | PDI e Cibersegurança" align="middle">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=660&height=72&lines=James+Taylor+%7C+%F0%9F%96%A5%EF%B8%8F+Entidades,+Interface+visual+e+documenta%C3%A7%C3%A3o." alt="James Taylor | Interface visual e documentação técnica" align="middle">
+</div>
+
+<hr>
+
+<div align="left">
+  <img src="assets/Lucas_circular.png" alt="Avatar Lucas Almeida" width="72" height="72" align="middle">
+  &nbsp;&nbsp;
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=620&height=72&lines=Lucas+Almeida+%7C+%F0%9F%8E%A8+Algoritmos+gr%C3%A1ficos." alt="Lucas Almeida | Algoritmos gráficos" align="middle">
+</div>
+
+<hr>
+
+<div align="left">
+  <img src="assets/Victor.png" alt="Avatar Victor Reinaldo" width="72" height="72" align="middle">
+  &nbsp;&nbsp;
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=620&height=72&lines=Victor+Reinaldo+%7C+%E2%9A%99%EF%B8%8F+L%C3%B3gica+e+mec%C3%A2nicas+principais." alt="Victor Reinaldo | Lógica e mecânicas principais" align="middle">
 </div>
 
 ---
