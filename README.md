@@ -801,9 +801,9 @@ O projeto demonstrou que técnicas clássicas de Processamento Digital de Imagen
 <hr>
 
 <div align="left">
-  <img src="assets/Vini.png" alt="Avatar Lucas Almeida" width="72" height="72" align="middle">
+  <img src="assets/Vini.png" alt="Avatar Vinicius Viera" width="72" height="72" align="middle">
   &nbsp;&nbsp;
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=620&height=72&lines=Lucas+Almeida+%7C+%F0%9F%8E%A8+Algoritmos+gr%C3%A1ficos." alt="Lucas Almeida | Algoritmos gráficos" align="middle">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=620&height=72&lines=Vinicius+Vieira+%7C+%F0%9F%8E%A8+Algoritmos+gr%C3%A1ficos." alt="Lucas Almeida | Algoritmos gráficos" align="middle">
 </div>
 
 <hr>
