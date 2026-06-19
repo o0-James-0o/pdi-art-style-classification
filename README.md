@@ -133,7 +133,7 @@ A tabela abaixo resume os principais recursos técnicos do projeto. As bibliotec
     <td>Usado apenas na etapa permitida de treino e avaliação dos modelos.</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://api.iconify.design/simple-icons:matplotlib.svg?color=%2311557C" width="32" height="32"></td>
+    <td align="center"><img src="assets/matplotlib_icon.svg" width="32" height="32"></td>
     <td><strong>Matplotlib</strong></td>
     <td>Visualização de resultados.</td>
     <td>Gera gráficos, matriz de confusão e imagens de apoio para análise.</td>
