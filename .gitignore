@@ -1,0 +1,91 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# =========================
+# Ambientes virtuais
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Configurações locais
+# =========================
+.env
+.env.*
+*.local
+
+# =========================
+# Jupyter / notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Sistema operacional
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDEs e editores
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Dataset
+# Não subir imagens baixadas do WikiArt
+# =========================
+data/
+data/raw/
+data/processed/
+data/splits/
+
+# Mantém a estrutura das pastas, se houver arquivos .gitkeep
+!data/
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# =========================
+# Resultados gerados automaticamente
+# =========================
+results/
+results_sample_synthetic/
+
+# =========================
+# Arquivos temporários
+# =========================
+*.tmp
+*.log
+
+# =========================
+# LaTeX / Overleaf
+# =========================
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# =========================
+# Arquivos compactados
+# =========================
+*.zip
+*.rar
+*.7z
