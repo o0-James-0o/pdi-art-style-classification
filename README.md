@@ -795,7 +795,7 @@ O projeto demonstrou que técnicas clássicas de Processamento Digital de Imagen
 <div align="left">
   <img src="assets/James.png" alt="Avatar James Taylor" width="72" height="72" align="middle">
   &nbsp;&nbsp;
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=660&height=72&lines=James+Taylor+%7C+%F0%9F%96%A5%EF%B8%8F+Dataset,+Metodologia+e+pipeline.%C3%A7%C3%A3o." alt="James Taylor | Dataset, Metodologia e pipeline" align="middle">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=660&height=72&lines=James+Taylor+%7C+%F0%9F%96%A5%EF%B8%8F+Dataset,+Metodologia+e+pipeline." alt="James Taylor | Dataset, Metodologia e pipeline" align="middle">
 </div>
 
 <hr>
