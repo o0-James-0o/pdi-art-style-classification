@@ -8,10 +8,6 @@ Uso:
 Saída:
     data/raw/<classe>/*.jpg
 
-Observações:
-- O download pode ser grande.
-- Respeite os termos de uso do WikiArt: uso não comercial/pesquisa.
-- Caso prefira, você pode baixar pelo Kaggle e organizar manualmente as pastas.
 """
 from pathlib import Path
 from collections import defaultdict
