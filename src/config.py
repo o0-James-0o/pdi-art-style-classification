@@ -1,13 +1,4 @@
-"""
-Configuração central do projeto.
 
-Decisão metodológica:
-- Tema: Artes / pinturas digitais.
-- Tarefa: classificação supervisionada de estilos artísticos.
-- Dataset: recorte enxuto do WikiArt/Hugging Face.
-- Classes: Impressionism, Cubism, Baroque e Realism.
-- Pipeline: processamento clássico manual + características artesanais + KNN.
-"""
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
