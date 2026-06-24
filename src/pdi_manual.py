@@ -1,16 +1,4 @@
-"""
-Implementações manuais das etapas principais de PDI.
 
-Bibliotecas prontas de alto nível NÃO são usadas para:
-- conversão para cinza;
-- redimensionamento;
-- convolução/filtro espacial;
-- Sobel;
-- Otsu;
-- morfologia;
-- DCT/IDCT;
-- histogramas e entropia.
-"""
 from collections import deque
 import math
 import numpy as np
